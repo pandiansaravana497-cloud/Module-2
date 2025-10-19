@@ -11,9 +11,24 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+def result(a, b):
 
-Add code Here
+    if b == 0:
+        print("Error: Division by zero is not allowed.")
+    else:
+        modulo = a % b
+        print("The result of", a, "%", b, "is:", modulo)
+try:
+    a = int(input("Enter the first integer (a): "))
+    b = int(input("Enter the second integer (b): "))
+    result(a, b)
+except ValueError:
+    print("Invalid input. Please enter valid integers.")
 
 ## Output
+Enter the first integer (a): 17
+Enter the second integer (b): 5
+The result of 17 % 5 is: 2
 
 ## Result
+The code executed successfully
