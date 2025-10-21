@@ -20,4 +20,4 @@ print(f(i, j,z))
 <img width="543" height="419" alt="Screenshot 2025-10-21 212115" src="https://github.com/user-attachments/assets/c98ed2aa-3e48-46b5-b210-3aad6c54a1f6" />
 
 ## Result
-thus th program runs successfully
+thus the program runs successfully
